@@ -1,0 +1,25 @@
+#gameBoardDiv{
+    display: flex; /* this gameboard will be flexbox */
+    flex-wrap: wrap; /* this way the holes will end up wraping */
+    justify-content: space-around; /* set up the equal space between the columns/holes*/
+}
+
+/* set up the styles for the holes */
+.hole{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 115, 53);
+    border-radius: 50%;/* make the appearance of the circle */
+    margin: 10px;
+    cursor: pointer;/* make the cursor a pointer, to help the user experience with our game */
+}
+
+/* set the class to change the color when the hole is active, i.e., the mole pops up */
+.up{
+    background-color: purple;
+    box-shadow: 4px 4px 4px rgb(235, 109, 7);
+}
+
+img.fun{
+    width: 380px;
+}
